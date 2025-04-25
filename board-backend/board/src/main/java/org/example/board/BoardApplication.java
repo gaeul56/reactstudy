@@ -2,7 +2,10 @@ package org.example.board;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 @SpringBootApplication
 public class BoardApplication {
 
@@ -10,4 +13,8 @@ public class BoardApplication {
         SpringApplication.run(BoardApplication.class, args);
     }
 
+    @RequestMapping ("/")
+    public String home() {
+        return "hello world spring";
+    }
 }
