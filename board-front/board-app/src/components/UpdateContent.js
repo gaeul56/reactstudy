@@ -16,17 +16,19 @@ class UpdateContent extends Component{
     console.log('UpdateContent render');
     return (
       <article>
-        <h2>Update</h2>
+        <h2>Update</h2> 
           <form action="/create_process" method="post"
             onSubmit={function(e){
               e.preventDefault();
               this.props.onSubmit(
-                e.target.title.value,
-                e.target.desc.value
+                this.state.id,
+                this.state.title,
+                this.state.desc
               );
               alert('submit!!!!!');
             }.bind(this)}
           >
+            <input type="hidden" name="id" value={this.state.id}></input>
             <p>
               <input type="text" name="title" placeholder="title" value={this.state.title}
               onChange={this.inputFormHandler.bind(this)}
