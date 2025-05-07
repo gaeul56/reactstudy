@@ -105,9 +105,17 @@ class App extends Component {
               var _content = Array.from(this.state.contents);
               var i=0;
               while(i < _content.length){
-                if(_contents[i].id === this.state.selected_content_id)
-                i = i + 1;
-              }
+                if(_contents[i].id === this.state.selected_content_id){
+                  _contents.splice(i,1);
+                  break;
+                }
+              i = i + 1;
+            }
+            this.setState({
+              mode:'welcome',
+              contents:_contents
+            });
+            alert('deleted!');
             }
           } else {
             this.setState({
