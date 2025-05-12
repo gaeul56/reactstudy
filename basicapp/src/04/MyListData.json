@@ -1,0 +1,18 @@
+[
+    {"title" : "HTML",
+     "imgUrl": "./img/html.png",
+     "content": "HTML (HyperText Markup Language)은 웹을 이루는 가장 기초적인 구성요소"
+    },
+     {"title" : "CSS",
+     "imgUrl": "./img/css.png",
+     "content": "Cascading Style Sheets(CSS)는 HTML이나 XML"
+    },
+    {"title" : "JavaScript",
+     "imgUrl": "./img/js.png",
+     "content": "웹 페이지를 위한 스크립트 언어"
+    },       
+    {"title" : "React",
+     "imgUrl": "./img/react.png",
+     "content": "사용자 인터페이스를 만들기 위한  JavaScript 라이브러리"
+    }
+]

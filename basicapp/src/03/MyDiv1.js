@@ -11,7 +11,7 @@ export default function MyDiv1() {
         <div className="w-full h-10 flex justify-start items-center">
            {d1}
         </div>
-        <MyDiv2 dn1={d1} dn2={d2} />
+        <MyDiv2 dn1={d1} dn2={d2} dn3={d3} />
         </div>
     )
 } 
