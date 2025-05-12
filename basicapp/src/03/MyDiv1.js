@@ -6,7 +6,9 @@ export default function MyDiv1() {
                         justify-center items-center
                         w-2/3 h-2/3 text-2xl
                         bg-lime-900 text-white">
-        myDiv1
+        <div className="w-full h-10 flex justify-start items-center">
+            myDiv1
+        </div>
         <MyDiv2 />
         </div>
     )

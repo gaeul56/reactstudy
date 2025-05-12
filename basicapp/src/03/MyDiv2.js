@@ -1,9 +1,12 @@
+import MyDiv3 from "./MyDiv3"
 export default function MyDiv2() {
   return (
-    <div    className="flex flex-col p-5 m-10
+    <div className="flex flex-col p-5 m-10
                         w-3/4 h-3/4
                         bg-lime-700 text-white">
-        myDiv2      
+        <div className="w-full flesx justify-start">myDiv2</div>      
+        <MyDiv3 />
     </div>
   )
 }
+ 
