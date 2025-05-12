@@ -4,9 +4,9 @@ import './App.css';
 //import MyClock from './02/MyClock';
 //import { IoHomeOutline } from "react-icons/io5";
 //import MyDiv1 from './03/MyDiv1';
-import MyList from './04/MyList';
+// import MyList from './04/MyList';
 import { RiHomeHeartFill } from 'react-icons/ri';
-
+import Lotto from './05/Lotto';
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
      </header>
      <main className='grow w-full flex justify-center items-center overflow-y-auto'>
       {/* <MyDiv1 /> */}
-      <MyList />
+      {/* <MyList /> */}
+      <Lotto />
      </main>
     <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
       c seogaeul
