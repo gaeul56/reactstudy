@@ -6,8 +6,8 @@ import './App.css';
 //import MyDiv1 from './03/MyDiv1';
 // import MyList from './04/MyList';
 import { RiHomeHeartFill } from 'react-icons/ri';
-import Lotto from './05/Lotto';
-
+// import Lotto from './05/Lotto';
+import Traffic from './06/Traffic';
 function App() {
   return (
     <div className="flex flex-col w-full h-screen mx-auto">
@@ -18,7 +18,8 @@ function App() {
      <main className='grow w-full flex justify-center items-center overflow-y-auto'>
       {/* <MyDiv1 /> */}
       {/* <MyList /> */}
-      <Lotto />
+      {/*<Lotto />  */}
+      <Traffic/>
      </main>
     <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
       c seogaeul
